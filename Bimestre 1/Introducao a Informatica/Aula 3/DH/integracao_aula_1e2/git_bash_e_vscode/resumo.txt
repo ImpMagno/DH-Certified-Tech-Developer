@@ -1,0 +1,6 @@
+Em cada arquivo resumo.txt, escrever (a partir do VS Code), um pequeno resumo
+dos temas vistos até agora, relacionados com os nomes das pastas.
+
+Aprendemos a criar diretórios e arquivos usando os comandos "mkdir" e "echo".
+Depois usamos o comando "ls -R" para mostrar todo o conteudo na pasta "DH", de forma recursiva.
+Depois usamos o comando "move" para renomear as pastas.

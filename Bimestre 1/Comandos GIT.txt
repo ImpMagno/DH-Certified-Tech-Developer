@@ -1,0 +1,22 @@
+echo "# CTD-Front-end-1" >> README.md
+
+git init // cria um repositório
+
+git add README.md
+
+git commit -m "Commit Inicial"
+
+git config --global user.name ImpMagno // agrega seu nome ao repositório
+
+git config --global user.email imperadormagnooficial@gmail.com // agrega seu email ao repositório
+
+git branch -M main
+
+git remote add origin https://github.com/ImpMagno/DH-Certified-Tech-Developer.git
+git remote add origin https://github.com/DH/RepoRemoto // aponta um repositório remoto
+
+git add . // adiciona todos os arquivos
+
+git commit -m "mensagem" // adiciona uma mensagem nas alterações feitas
+
+git push -u origin main
