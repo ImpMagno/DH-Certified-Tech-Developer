@@ -1,4 +1,4 @@
-echo "# CTD-Front-end-1" >> README.md
+echo "# DH-Certified-Tech-Developer" >> README.md
 
 git init // cria um repositório
 
