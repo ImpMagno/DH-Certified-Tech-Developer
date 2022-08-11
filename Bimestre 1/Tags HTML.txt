@@ -1,9 +1,0 @@
-<html>
-
-    <head>Configurações do arquivo
-
-        <title>Título do arquivo<title>
-
-    </head>
-
-</html>
