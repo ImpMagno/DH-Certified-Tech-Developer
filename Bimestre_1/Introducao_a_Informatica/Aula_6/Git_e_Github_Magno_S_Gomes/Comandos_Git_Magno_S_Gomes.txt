@@ -1,0 +1,47 @@
+CMD:
+
+cd "Pasta" / Alterar a pasta de trabalho: Com este comando podemos mover entre diferentes diretórios. Se quisermos ir para um diretório específico.
+
+cd .. / Subir um nível de pasta.
+
+mkdir "Pasta" / Criar uma pasta (criar diretório).
+
+rmdir "Pasta" / Excluir uma pasta (remover diretório).
+
+rm "Arquivo" / Excluir arquivos.
+
+mv "Nome" "Destino" / Mover um arquivo ou pasta para um arquivo ou pasta (mover).
+
+echo > "Arquivo" / Para criar arquivos.
+
+touch "Arquivo" / Para criar arquivos.
+
+Git:
+
+git init // cria um repositório.
+
+git add "Arquivo" // Para selecionar arquivos e/ou pastas, e os moverem para a área de teste, marcando-os para inclusão no próximo commit.
+
+git add . // adiciona todos os arquivos.
+
+git commit -m "Mensagem" // Criar um commit com os arquivos e/ou pastas marcados.
+
+git config user.name "Nome" // agrega seu nome ao repositório.
+
+git config user.email "E-mail" // agrega seu email ao repositório.
+
+git branch "Nome da branch" // Cria branchs no repositório.
+
+git remote add origin "Link do repositório" // aponta um repositório remoto.
+
+git commit -m "mensagem" // adiciona um commit com as alterações feitas, e com uma mensagem.
+
+git push origin "branch" // envia as mudanças para o repositório remoto
+
+git status // rastreia o status do arquivo
+
+git clone "Link do repositório"// Baixar uma cópia do repositório
+
+git pull origin main // Atualiza o repositório local
+
+git remote -v // Mostrar o repositório em uso
