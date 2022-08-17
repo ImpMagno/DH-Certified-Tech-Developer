@@ -1,0 +1,41 @@
+body
+{
+
+    background-color: #131313;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+a
+{
+
+    color: #e6bd09;
+
+}
+
+h1
+{
+
+    border-left: 1px solid #e6bd09;
+    border-right: 1px solid #e6bd09;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+h2 
+{
+
+    border-bottom: 1px solid #e6bd09;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+li
+{
+
+    display: block;
+
+}
