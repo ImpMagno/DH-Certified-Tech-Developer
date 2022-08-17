@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+
+    background-color: #131313;
+
+}
+
+#item li {
+
+    border: 1px solid #e6bd09;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    color: white;
+    height: 200px;
+    width: 300px;
+
+}
+
+ul{
+
+    text-align: justify;
+
+}
+
+h1 {
+
+    border: 1px solid #e6bd09;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+
+}
+
+h2{
+
+    color: steelblue;
+
+}
+
+h3 {
+
+    color: white;
+
+}
+
+p{
+
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #e6bd09;
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;    
+    height: 180px;
+    width: 800px;
+
+}
+
+a{
+
+    color: yellow;
+
+}
+
+.media-picture {
+
+    background-image: url('../img/Top-Gun-2-pode-bater-recordes.webp');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.review-score{
+
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+
+}
