@@ -57,6 +57,7 @@ main
 {
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
@@ -229,7 +230,7 @@ footer
 {
 
     display: flex;
-    
+    flex-wrap: wrap;    
     justify-content: space-between;
     align-items: flex-start;
 

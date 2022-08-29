@@ -1,0 +1,296 @@
+/*---Configurações gerais---*/
+
+*
+{
+    
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+    color: #F3F3F3;
+
+}
+/*
+body
+{
+
+    width: 1024px;
+    height: 678px;
+
+}
+*/
+.configCorpo1
+{   
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #222222;
+
+}
+
+.corVerde { color: #39B24A; }
+
+.corVermelha { color: #FC200C; }
+
+.corPreta { color: #222222; }
+
+.nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F3F3F3;
+
+}
+
+h2
+{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+/*---Fim Configurações gerais---*/
+
+/*---Logo---*/
+
+.logo
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 234px;
+    height: 80px;
+
+}
+
+.logo img
+{
+
+    width: 92px;
+    height: 80px;
+
+}
+
+.logo div
+{
+
+    width: 132px;
+    height: 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px;
+
+}
+
+.logo div span
+{   
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+/*---Logo---*/
+
+/*---Header---*/
+
+header
+{
+    
+    width: 100%;
+    height: 100px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+header .nav
+{
+
+    width: 276px;
+    height: 19px;
+
+    margin: 40px 28px 41px;
+
+}
+
+header .logo
+{
+
+    margin: 10px 20px;
+
+}
+
+/*---Final Header---*/
+
+/*---Main---*/
+
+main
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F3F3F3;
+
+}
+
+main section
+{
+
+    display: flex;
+
+    width: 996px;
+    height: 360px;
+
+    margin: 35px 19px;
+
+}
+
+.divCards
+{
+
+    display: flex;
+    justify-content: center;
+
+    width: 490px;
+    height: 350px;
+
+    border-radius: 5px;
+
+    margin: 5px;
+
+}
+
+#divDelivery img
+{
+
+    position: absolute;
+
+    border-radius: 5px;
+
+}
+
+#divDelivery h2
+{
+
+    position: absolute;
+
+    margin: 4px;
+
+}
+
+#divCardapio
+{
+
+    background: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+#divPrimeiraPizza
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 385px;
+    height: 250px;
+
+}
+
+#divPrimeiraPizza div
+{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 146px;
+    height: 178px;
+
+}
+
+#divPrimeiraPizza ol
+{
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+#divPrimeiraPizza img
+{
+
+    width: 92px;
+    height: 129px;
+
+}
+
+/*---Final Main---*/
+
+/*---Footer---*/
+
+footer
+{
+
+    position: absolute;
+
+    bottom: 0%;
+
+    width: 100%;
+    height: 150px;
+
+}
+
+footer .nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 74px;
+    height: 112px;
+
+    margin: 19px 20px;
+
+}
+
+footer .logo
+{
+
+    margin: 35px 42px;
+
+}
+
+/*---Final Footer---*/
